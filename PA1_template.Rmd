@@ -152,7 +152,7 @@ library(lubridate)
 is_weekday <-function(date){
         if(wday(date)%in%c(1,7)) result<-"weekend"
         else
-                result<-"weekday"
+               result<-"weekday"
         result
 }
 
